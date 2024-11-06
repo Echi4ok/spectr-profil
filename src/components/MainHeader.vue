@@ -14,8 +14,8 @@ const changeValueMenu = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <div class="flex-shrink-0 flex items-center">
-                    <router-link to="/"><img class="h-8" src="https://via.placeholder.com/150" alt="Логотип"></router-link>
-                    <router-link to="/"><div class="ml-4 text-black text-sm sm:text-base md:text-lg">
+                    <router-link to="/"><img class="h-20 mt-4" src="/logo.png" alt="Логотип"></router-link>
+                    <router-link to="/"><div class=" text-black text-sm sm:text-base md:text-lg">
                         <p class="text-white italic">Надежный партнер</p>
                         <p class="text-white italic">вашего бизнеса</p>
                     </div></router-link>

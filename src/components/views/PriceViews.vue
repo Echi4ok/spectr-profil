@@ -4,7 +4,7 @@
 
     <section class="mb-8">
       <p class="text-gray-700">
-        В компании ООО «СпектрПрофиль» мы предлагаем широкий ассортимент строительных материалов по доступным ценам. 
+        В компании ООО «ПК СпектрПрофиль» мы предлагаем широкий ассортимент строительных материалов по доступным ценам. 
         Наши услуги включают, но не ограничиваются: профнастилом, металлочерепицей, сэндвич-панелями и другими изделиями. 
         Прайс на наши товары может варьироваться в зависимости от объема заказа и индивидуальных требований клиента.
       </p>
@@ -21,7 +21,7 @@
     <input v-model="email" type="email" placeholder="Ваш Email" required class="p-3 border border-gray-300 rounded-lg"/>
     <input v-model="city" type="text" placeholder="Город" required class="p-3 border border-gray-300 rounded-lg"/>
     <input v-model="number" type="tel" placeholder="Телефон" required class="p-3 border border-gray-300 rounded-lg"/>
-    <textarea v-model="message" placeholder="Сообщение" rows="4" required class="p-3 border border-gray-300 rounded-lg"></textarea>
+    <textarea v-model="message" placeholder="Сообщение" rows="4" class="p-3 border border-gray-300 rounded-lg"></textarea>
   </div>
   <button @click="postData" type="submit" class="mt-4 w-full bg-stone-500 text-white p-3 rounded-lg hover:bg-gray-500 transition">Отправить заявку</button>
 </form>
@@ -43,18 +43,20 @@ const message = ref('')
 async function postData () {
 try {
   if(name.value  && email.value  && city.value  && number.value) { // тут мы проверяем чтобы все инпуты строки были заполнены
-   const obj = {   // тут мы создаем обьект в который помещаем наши данные, тебе придется с ним работать
+    const obj = {   // тут мы создаем обьект в который помещаем наши данные, тебе придется с ним работать
     name: name.value,
     email: email.value,
     city: city.value,
     number: number.value,
+    message: message.value
    } 
    console.log(obj) // тут он выводится в консоли, можешь глянуть
   } else {
-      throw new Error('Eblan zapolni vse polya')
+      throw new Error('Заполните все поля')
   }
   } catch (err) {
     console.log(err.message)
+    alert('Заполните все поля')
   }
 }
 // давай лех я в тебя верю 

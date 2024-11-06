@@ -65,7 +65,7 @@
         <img src="/pop-rezka.jpg" alt="" class="bg-brown-500 opacity-80 w-full h-48 object-cover rounded-md mb-4" />
         <h2 class="text-xl font-semibold mb-2 text-gray-700">Продольная резка на штрипс</h2>
         <p class="text-gray-600 mb-4">Оказываем услуги по продольному роспуску металлопроката на штрипс заданной ширины.</p>
-        <p class="font-bold text-gray-800">Минимальная ширина ленты: 60 мм.</p>
+        <p class="font-bold text-gray-800">Минимальная ширина ленты: 20 мм.</p>
       </div>
     </div>
   </div>

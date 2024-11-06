@@ -15,10 +15,10 @@
     <div class="mb-4 bg-gray-100 p-5 shadow rounded-lg">
       <h2 class="text-lg font-semibold mb-2">Реквизиты компании</h2>
       <p><strong>ООО «ПК СпектрПрофиль»</strong></p>
-      <p>ИНН: 4826134397</p>
-      <p>КПП: 482601001</p>
-      <p>ОГРН: 1174827022040</p>
-      <p>Юр. адрес: 398902, Липецкая область, город Липецк, улица Юношеская, дом 50, лит. Е.</p>
+      <p>ИНН: 4823079067</p>
+      <p>КПП: 482301001</p>
+      <p>ОГРН: 1204800007048</p>
+      <p>Юр. адрес: 398902, Липецкая область, город Липецк, улица Алмазная, влд 18, ОФИС 304</p>
       <p>Тел.: <a href="tel:+74742379433" class="text-blue-400 hover:underline">+7(4742) 37-94-33</a></p>
       <p>E-mail: <a href="mailto:info@spectr-profil.ru" class="text-blue-400 hover:underline">info@spectr-profil.ru</a></p>
     </div>

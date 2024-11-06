@@ -13,6 +13,9 @@ import ProizvodstvoViews from '@/components/views/ProizvodstvoViews.vue'
 import ContactsViews from '@/components/views/ContactsViews.vue'
 import PriceViews from '@/components/views/PriceViews.vue'
 import OrdersViews from '@/components/views/OrdersViews.vue'
+import ProductViews from '@/components/views/ProductViews.vue';
+
+
 
 
 
@@ -22,7 +25,8 @@ const routes = [
     { path: '/proizvodstvo', component: ProizvodstvoViews },
     { path: '/price', component: PriceViews },
     { path: '/contact', component: ContactsViews },
-    { path: '/order', component: OrdersViews }
+    { path: '/order', component: OrdersViews },
+    { path: '/product/:id', name: 'ProductsView', component: ProductViews }
 ]
 
 
