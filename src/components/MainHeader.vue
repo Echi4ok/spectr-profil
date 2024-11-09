@@ -16,8 +16,9 @@ const changeValueMenu = () => {
                 <div class="flex-shrink-0 flex items-center">
                     <router-link to="/"><img class="h-20 mt-4" src="/logo.png" alt="Логотип"></router-link>
                     <router-link to="/"><div class=" text-black text-sm sm:text-base md:text-lg">
-                        <p class="text-white italic">Надежный партнер</p>
-                        <p class="text-white italic">вашего бизнеса</p>
+                        <p class="text-white italic">СпектрПрофиль -</p>
+                        <p class="text-white italic">надежный партнер</p>
+                        <p class="text-white italic">вашего бизнеса!</p>
                     </div></router-link>
                 </div>
                 <div class="xl:hidden" @click="changeValueMenu"> <!-- Изменено с md:hidden на xl:hidden -->
